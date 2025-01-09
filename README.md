@@ -11,9 +11,10 @@ reuse pytest fixtures
 (pytest usefixtures)[https://docs.pytest.org/en/stable/how-to/fixtures.html#use-fixtures-in-classes-and-modules-with-usefixtures]
 
 # create from scratch
-
+```bash
 uv init
 uv add pytest
 uv add ruff
 uv add black
 uv add pytest-xdist
+```
